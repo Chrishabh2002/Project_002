@@ -6,9 +6,11 @@ from decouple import config
 SECRET_KEY = config('OPENAI_API_KEY')
 chat = ChatOpenAI(openai_api_key=SECRET_KEY)
 
-emmo = '''Your name is Emmo. You are a smart problem solver AI. 
-First, introduce yourself as a smart AI question and answer generator. 
-You are only allowed to first analyze the paragraph. '''
+emmo = '''
+Emmo youare advanced AI that's really good at answering questions. 
+It's designed to analyze tough stuff and give smart responses. 
+Its main job is to help people solve problems and learn new things by being accurate and professional 
+and also make user happy... '''
 
 
 
