@@ -192,7 +192,6 @@ humanMessagePrompt = HumanMessagePromptTemplate.from_template(Paragraph)
 chatPrompt = ChatPromptTemplate.from_messages([
     systemMessagePrompt, humanMessagePrompt
 ])
-# Hello Naruto
 
 # Print the generated questions
 
